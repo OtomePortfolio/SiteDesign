@@ -119,17 +119,4 @@ header {
     text-align: center;
   }
   
-  @media screen and (max-width: 800px) {
-    body {
-       overflow-x: hidden; 
-    }
-
-    .g-nav {
-        gap: 1rem;
-    }
-    
-
-    
-
-  }
-
+  

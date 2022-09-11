@@ -212,49 +212,29 @@ Insta
     padding: 50px 20px;
     text-align: center;
   }
-
-
-  @media screen and (max-width: 767px) {
-
-
-    
-.menu-content {
-        flex-direction: column;
-    }
-.menu-item {
-        width: 100%;
-        padding: 0;
-      }
-.menu-item:first-child {
-        border-right: none;
-      }
-.menu-item dl {
-        margin-bottom: 10px;
-      }
-.menu-item dl.food {
-        margin-bottom: 10px;
-}
-
-.location .contents {
-    display: block;
+  @media screen and (max-width: 800px) {
+ .menu-content {
+            flex-direction: column;
         }
-
-
-
-.map {
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-
-}
-
-.map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
- }
+    .menu-item {
+            width: 100%;
+            padding: 0;
+          }
+    .menu-item:first-child {
+            border-right: none;
+          }
+    .menu-item dl {
+            margin-bottom: 10px;
+          }
+    .menu-item dl.food {
+            margin-bottom: 10px;
+    }
     
+    .location .contents {
+        display: block;
+            }
+
+            
+
+     
+    }
