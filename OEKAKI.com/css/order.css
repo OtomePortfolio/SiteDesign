@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  color: #24292e;
+}
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+  }
+  .site-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+  #contact dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  #contact dt {
+    width: 15%;
+  }
+  #contact dd {
+    width: 85%;
+    margin-bottom: 10px;
+  }
+  #contact dd input,
+  #contact dd textarea {
+    width: 100%;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
+  }
+  #contact dd textarea {
+    height: 10rem;
+  }
+  #contact .button {
+    text-align: center;
+  }
+  #contact .button input {
+    
+    color: #ffffff;
+    background-color: #383e45;
+    padding: 15px 0;
+    min-width: 170px;
+    border-radius: 24px;
+    margin: 5px;
+
+  }
+  #contact .button input:hover {
+    background-color: #c8c8c8;
+  }
+
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      margin-bottom: 70px;
+    }
+    .site-title {
+      margin-top: 20px;
+    }
+    #contact dl {
+      flex-direction: column;
+    }
+    #contact dt {
+      width: 100%;
+    }
+    #contact dd {
+      width: 100%;
+    }
+  }
+  
