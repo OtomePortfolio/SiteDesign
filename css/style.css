@@ -34,12 +34,6 @@ img {
   top: 50%;
   left: -120px;
 }
-.text {
-  max-width: 460px;
-  font-size: 0.875rem;
-  line-height: 1.8;
-  margin-bottom: 80px;
-}
 
 .item-list {
     list-style: none;
@@ -60,12 +54,14 @@ img {
     transform: scale(1.05);
   }
   
-  .item-list p {
+  .content-title {
     margin-top: 20px;
     font-size: 0.875rem;
     font-weight: bold;
   }
-  
+  .item-list p {
+    font-size: 0.875rem;
+  }
   
 
 
